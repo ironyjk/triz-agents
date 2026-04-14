@@ -150,6 +150,8 @@ Key patterns:
 
 **When to use**: Constraints appear to prevent adding new elements to the system.
 
+For the complete enumeration of all 76 standards, see [76-standards.md](76-standards.md).
+
 ## Application Process
 
 ### Phase 1: Model the Current System

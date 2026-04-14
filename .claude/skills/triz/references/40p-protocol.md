@@ -156,102 +156,119 @@ Applies Altshuller's 40 Inventive Principles to resolve technical contradictions
 
 - *Engineering:* Welding electrode (consumable intermediary); catalyst in chemical reaction
 - *Software:* Message broker; API gateway; adapter pattern
+- *Business:* Real estate agent between buyer and seller; escrow service holding funds until contract conditions met
 
 ### Principle 25 — Self-Service
 **Sub-principles:** (a) Make object service itself (perform auxiliary/repair functions). (b) Use waste resources, energy, or substances.
 
 - *Engineering:* Self-cleaning oven; self-sharpening plow blade that wears to maintain edge
 - *Software:* Garbage collection; self-healing infrastructure; auto-generated documentation
+- *Operations:* Employee suggestion box where workers fix their own workflow bottlenecks; waste heat from servers used to warm offices
 
 ### Principle 26 — Copying
 **Sub-principles:** (a) Use inexpensive copy instead of fragile/expensive original. (b) Replace object with optical copy (image), use scale changes. (c) If visible copies used, switch to IR/UV.
 
 - *Engineering:* Wind tunnel testing of scale models; crash-test dummies
 - *Software:* Mock objects in testing; staging environment; digital twin
+- *Business:* Pilot program in one region before national rollout; tabletop exercises simulating crisis scenarios
 
 ### Principle 27 — Cheap Short-Living Object
 **Sub-principles:** (a) Replace expensive durable object with cheap disposable ones.
 
 - *Engineering:* Disposable surgical instruments (sterility guaranteed, no cleaning cost)
 - *Software:* Ephemeral containers; serverless functions; disposable test environments
+- *Operations:* Single-use pallets cheaper than managing return logistics; disposable PPE vs sterilizing reusable gear
 
 ### Principle 28 — Mechanics Substitution
 **Sub-principles:** (a) Replace mechanical means with sensory (optical, acoustic, taste, smell). (b) Use electric, magnetic, electromagnetic fields. (c) Replace fields: stationary→moving, unstructured→structured, random→phased. (d) Use fields with ferromagnetic particles.
 
 - *Engineering:* Magnetic bearing replaces mechanical bearing (no friction/wear)
 - *Manufacturing:* Induction heating replaces gas furnace (precise, instant, clean)
+- *Software:* Replace manual code review gates with automated static analysis; OCR replaces manual data entry
 
 ### Principle 29 — Pneumatics and Hydraulics
 **Sub-principles:** (a) Replace solid parts with gas or liquid: inflatable, air-cushioned, hydrostatic, hydro-reactive.
 
 - *Engineering:* Air bearings for frictionless movement; inflatable structures
 - *Operations:* Pneumatic tube delivery systems; hydraulic lifts
+- *Software:* Replace rigid data schemas with fluid stream processing; event sourcing as a "flow" replacing fixed state snapshots
 
 ### Principle 30 — Flexible Shells and Thin Films
 **Sub-principles:** (a) Replace rigid structures with flexible membranes and thin films. (b) Isolate object from environment using flexible shells and thin films.
 
 - *Engineering:* Shrink-wrap packaging; bubble wrap; PTFE-coated cookware
 - *Architecture:* Tensile fabric structures (stadium roofs)
+- *Software:* Feature flags as thin wrappers around rigid code paths; plugin interfaces that isolate core from extensions
 
 ### Principle 31 — Porous Materials
 **Sub-principles:** (a) Make object porous or add porous elements. (b) If already porous, fill pores with useful substance.
 
 - *Engineering:* Sintered metal bearings pre-filled with lubricant (self-lubricating)
 - *Construction:* Pervious concrete for stormwater management
+- *Software:* Bloom filters — probabilistic "porous" data structure that trades perfect accuracy for massive space savings
 
 ### Principle 32 — Color Changes
 **Sub-principles:** (a) Change color or transparency. (b) Change color of surroundings or external environment. (c) Use colored additives to observe hard-to-see objects. (d) Use luminescent traces.
 
 - *Engineering:* Thermochromic paint indicates overheating; UV dye for leak detection
 - *Safety:* High-vis clothing; color-coded wiring and piping
+- *UX:* Red/green status indicators in dashboards; syntax highlighting in code editors; heatmaps showing user click density
 
 ### Principle 33 — Homogeneity
 **Sub-principles:** (a) Make objects interacting with a given object of the same material (or close in properties).
 
 - *Engineering:* Ice-mold container made of ice (no contamination, no cleaning)
 - *Manufacturing:* Sacrificial tooling made of same material as workpiece
+- *Software:* Test data generated from same schema as production; "dogfooding" — team uses its own product so tool and user share context
 
 ### Principle 34 — Discarding and Recovering
 **Sub-principles:** (a) Discard (dissolve, evaporate) elements that have fulfilled their function. (b) Immediately restore consumable parts during operation.
 
 - *Engineering:* Soluble surgical sutures; rocket stage separation; lost-wax casting
 - *Software:* Temporary scaffolding code; feature flags removed after rollout
+- *Operations:* Temporary staffing agencies for seasonal peaks; pop-up stores that close after a promotional period
 
 ### Principle 35 — Parameter Changes
 **Sub-principles:** (a) Change physical state (gas→liquid→solid). (b) Change concentration or consistency. (c) Change flexibility. (d) Change temperature or volume.
 
 - *Engineering:* Freeze pipe contents for temporary plug (ice plug technique)
 - *Food:* Freeze-drying preserves structure while removing water
+- *Software:* Serialize objects to JSON for transport, deserialize on arrival; toggle between verbose and compact logging modes
 
 ### Principle 36 — Phase Transitions
 **Sub-principles:** (a) Use phenomena occurring during phase transitions (volume change, heat release/absorption, etc.).
 
 - *Engineering:* Heat pipes use evaporation/condensation cycle for efficient heat transfer
 - *Storage:* Phase-change materials for thermal energy storage (melt to absorb, solidify to release)
+- *Business:* Tipping-point marketing — small increases in spend produce disproportionate viral growth once adoption crosses a threshold
 
 ### Principle 37 — Thermal Expansion
 **Sub-principles:** (a) Use thermal expansion/contraction. (b) If already using, use multiple materials with different thermal expansion coefficients.
 
 - *Engineering:* Bimetallic thermostat; shrink-fit assembly (heat sleeve, insert shaft, cool)
 - *Measurement:* Mercury thermometer exploits liquid thermal expansion
+- *Software:* Auto-scaling cloud instances that expand capacity under load and contract when idle, paying only for actual usage
 
 ### Principle 38 — Strong Oxidants (Boosted Interactions)
 **Sub-principles:** (a) Replace normal air with enriched air. (b) Replace enriched air with pure oxygen. (c) Expose air/oxygen to ionizing radiation. (d) Use ionized oxygen (ozone). (e) Replace ozone with ozonized/ionized oxygen.
 
 - *Engineering:* Oxygen-enriched combustion for higher temperatures; ozone water treatment
 - *Abstract:* Intensify the interaction/process at each step (applicable to any domain)
+- *Software:* Progressive enhancement of test suites — unit → integration → load → chaos engineering, each level more aggressive
 
 ### Principle 39 — Inert Atmosphere
 **Sub-principles:** (a) Replace normal environment with inert. (b) Add neutral parts or inert additives. (c) Carry out process in vacuum.
 
 - *Engineering:* Welding under argon gas; vacuum packaging for food preservation
 - *Software:* Sandboxing; isolated test environments; containerization
+- *Operations:* Cleanroom manufacturing; nitrogen-blanketed fuel tanks preventing ignition; neutral third-party mediator in negotiations
 
 ### Principle 40 — Composite Materials
 **Sub-principles:** (a) Replace homogeneous materials with composite (multi-layer, fiber-reinforced, etc.).
 
 - *Engineering:* Carbon fiber reinforced polymer — strong as steel, fraction of weight
 - *Construction:* Reinforced concrete (steel rebar + concrete); laminated safety glass
+- *Software:* Hybrid architecture combining microservices (flexibility) with a shared event bus (consistency); full-stack frameworks pairing React UI with server-side rendering
 
 ---
 
