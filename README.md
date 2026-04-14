@@ -167,9 +167,19 @@ See [docs/altshuller-background.md](docs/altshuller-background.md) for a compreh
 - [ ] **TRIZ-TOC Integration** — Combine constraint identification (TOC) with inventive problem solving (TRIZ)
 - [ ] **Case Library** — Searchable database of solved problems and applied principles
 
+## Use with /think (30 Tools)
+
+TRIZ works best when combined with other frameworks. Install [strategy-frameworks](https://github.com/ironyjk/strategy-frameworks) to get `/think` — a meta-agent that auto-selects the best tool(s) from 30 frameworks including TRIZ.
+
+```bash
+# Install all 30 tools (TOC + TRIZ + 9 strategy frameworks + /think)
+curl -fsSL https://raw.githubusercontent.com/ironyjk/strategy-frameworks/master/install.sh | bash
+```
+
 ## Related Projects
 
-- [toc-agents](https://github.com/ironyjk/toc-agents) — Theory of Constraints as Claude Code skills
+- [strategy-frameworks](https://github.com/ironyjk/strategy-frameworks) — Wardley, OODA, Porter, Blue Ocean, Design Thinking, Drucker, BSC, First Principles + `/think` meta-agent
+- [toc-agents](https://github.com/ironyjk/toc-agents) — Theory of Constraints (Goldratt) 11 tools
 
 ## Author
 
